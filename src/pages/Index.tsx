@@ -7,8 +7,8 @@ import { CustomerInfo } from "@/components/CustomerInfo";
 import { NewLoanForm } from "@/components/NewLoanForm";
 import { ExistingLoans } from "@/components/ExistingLoans";
 import { ResultDashboard } from "@/components/ResultDashboard";
-import { calculateDsrDti } from "@/utils/dsr-calculator";
-import {
+import { calculateDsrDti } from "@/utils/dsr-calculator.ts";
+import type {
   MarketSettings as MarketSettingsType,
   CustomerInfo as CustomerInfoType,
   NewLoan,

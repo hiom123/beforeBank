@@ -1,4 +1,4 @@
-import { LoanType, RepaymentMethod, NewLoan, ExistingLoan, CalculationResult } from "@/types/loan";
+import type { LoanType, RepaymentMethod, NewLoan, ExistingLoan, CalculationResult } from "@/types/loan";
 
 // 연간 원리금 상환액 계산 (원리금균등분할)
 function calculateAnnuityRepayment(

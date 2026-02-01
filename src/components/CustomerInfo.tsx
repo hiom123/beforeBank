@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { Label } from "@/src/components/ui/label";
-import { Input } from "@/src/components/ui/input";
-import { CustomerInfo as CustomerInfoType } from "@/src/types/loan";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import type { CustomerInfo as CustomerInfoType } from "@/types/loan";
 import { User, Wallet } from "lucide-react";
 
 interface CustomerInfoProps {
