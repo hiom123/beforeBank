@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import { Label } from "@/src/components/ui/label";
-import { Input } from "@/src/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/src/components/ui/select";
-import { NewLoan, LoanType, RepaymentMethod } from "@/src/types/loan";
+} from "@/components/ui/select";
+import { NewLoan, LoanType, RepaymentMethod } from "@/types/loan";
 import { FileText, CircleDollarSign, Calendar, Percent, RefreshCw } from "lucide-react";
 
 interface NewLoanFormProps {

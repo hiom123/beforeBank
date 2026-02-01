@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { Label } from "@/src/components/ui/label";
-import { Input } from "@/src/components/ui/input";
-import { Slider } from "@/src/components/ui/slider";
-import { MarketSettings as MarketSettingsType } from "@/src/types/loan";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Slider } from "@/components/ui/slider";
+import { MarketSettings as MarketSettingsType } from "@/types/loan";
 import { Settings2 } from "lucide-react";
 
 interface MarketSettingsProps {

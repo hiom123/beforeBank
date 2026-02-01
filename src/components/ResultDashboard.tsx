@@ -1,8 +1,8 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { PremiumGaugeChart } from "./PremiumGaugeChart";
 import { ContributionChart } from "./ContributionChart";
-import { Badge } from "@/src/components/ui/badge";
-import { CalculationResult } from "@/src/types/loan";
+import { Badge } from "@/components/ui/badge";
+import { CalculationResult } from "@/types/loan.ts";
 import { CheckCircle2, AlertTriangle, XCircle, TrendingUp, TrendingDown, Minus } from "lucide-react";
 
 interface ResultDashboardProps {

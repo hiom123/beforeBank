@@ -1,22 +1,22 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, Trash2, Info, Layers } from "lucide-react";
-import { Button } from "@/src/components/ui/button";
-import { Label } from "@/src/components/ui/label";
-import { Input } from "@/src/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/src/components/ui/select";
+} from "@/components/ui/select";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/src/components/ui/tooltip";
-import { ExistingLoan, LoanType, RepaymentMethod } from "@/src/types/loan";
-import { getDsrBasis } from "@/src/utils/dsr-calculator";
+} from "@/components/ui/tooltip";
+import { ExistingLoan, LoanType, RepaymentMethod } from "@/types/loan";
+import { getDsrBasis } from "@/utils/dsr-calculator";
 
 interface ExistingLoansProps {
   loans: ExistingLoan[];
